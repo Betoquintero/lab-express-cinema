@@ -6,3 +6,38 @@ body {
 a {
   color: #00B7FF;
 }
+
+#index{
+  background-image: url("/images/cinema.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+button {
+  background-color: aqua;
+  font-weight: bolder;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 22%;
+  margin-bottom: 30px;
+}
+
+.movies-menu{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
+  padding: 0px;
+  background-color: white;
+}
+
+.results > div {
+  margin: 100px 100px 100px 100px;
+  width: 192px;
+  height: 270px;
+  background-color: #423E3D;
+  color: white;
+}
+

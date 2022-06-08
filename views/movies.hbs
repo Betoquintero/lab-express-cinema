@@ -1,9 +1,12 @@
 <h1>Movies</h1>
-
+<div class="movies-menu">
 {{#each movies}}
+<div>
   <p>Title: {{ this.title }}</p>
  
   <img width="200px" src="{{this.image}}" alt="{{this.title}}" /> 
   
   <a href="/movies/{{this._id}}">See More</a>
+</div>
 {{/each}}
+</div>
